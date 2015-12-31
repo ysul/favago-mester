@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.lbGallery {	
+	margin: 0;
+	padding: 0;
+}
+.lbGallery a {
+	margin: 0 17px 10px 17px;
+	padding: 0 0 10px 0;
+	float: left;
+	height: 128px;
+	width: 128px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+.lbGallery a img {
+	border: 0;
+}
+.lbGallery hr {
+	padding: 0;
+	margin: 0 0 15px 0;
+	clear: both;
+	border: 0;
+	background-color: #cfcfcf;
+	height: 1px;
+}
+.lbGallery p {
+        text-transform: uppercase;
+        padding: 0 0 20px 0;
+}
+#lightbox-container-image-box {
+	border: 2px solid #ff3300;
+}			
+#lightbox-container-image-data-box { 
+	border-top: 0px;
+	border-right: 2px solid #ff3300;
+	border-bottom: 2px solid #ff3300;
+	border-left: 2px solid #ff3300;
+}
